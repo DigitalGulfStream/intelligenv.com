@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  font-family: 'Orbitron' !important;
+
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.gradientbox {
+  background-color: transparent;
+  background-image: radial-gradient(at top right, #00E1FF24 0%, #01141D 50%);
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #FFFFFF29;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.buttonCustomize {
+  box-shadow: 0px 0px 24px 0px rgba(45.99999999999999, 217.9999999999999, 240.99999999999997, 0.49) inset;
+  min-width: 200px;
+  text-align: center;
+  float: none;
+  margin: 0px auto;
+}
+.buttonPlay {
+  box-shadow: 0px 0px 24px 0px rgba(45.99999999999999, 217.9999999999999, 240.99999999999997, 0.49) inset;
+  text-align: center;
+  float: left;
+}
+
+.overly {
+  background-image: radial-gradient(at top center, #7BDFFF52 4%, #03222CF7 100%);
+}
+
+.thumbnail_cover::before {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #12121200 0%, #02030FEB 78%);
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: transparent;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+.outer{
+  min-height: 420px;
+
+}
+.inner{
+  text-align: left;
+  position: absolute;
+  right: 0px;
+  width: calc(100% + 200px);
+  max-width: 900px;
+  margin-top: -70px;
+}
+.outer_overly{
+  background-color: transparent;
+    background-image: radial-gradient(at center center, #2EDAF1 0%, #021420 94%);
+    opacity: 0.18;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.socialMedia{
+  transition-duration: .3s;
+  transition-property: transform;
+  transform: scale(1);
+}
+.socialMedia:hover{
+  transition-duration: .3s;
+  transition-property: transform;
+  transform: scale(0.9);
+}
+.itemArtific{
+  background-color: transparent;
+  background-image: radial-gradient(at top right, #00E1FF24 0%, #01141D 50%);
+}
+  .itemArtific:hover{
+    background-color: #00E1FF30;
+  }
+  .sliderItem{
+    background-color: transparent;
+    background-image: radial-gradient(at center center, #2EDAF1 0%, #053F48 76%);
+    opacity: 0.2;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .projectItem{
+    padding-bottom: 100px;
+  }
