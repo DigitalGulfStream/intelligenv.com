@@ -2,7 +2,7 @@
 import React from "react";
 import Image from 'next/image'
 import Link from 'next/link'
-import { projectType } from "@/types/project";
+import { projectType } from "../../types/project";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 

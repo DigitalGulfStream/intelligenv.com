@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useRef, useState } from 'react'
 import ItemArtific from './ItemArtific'
-import { artificeType } from '@/types/artifice';
+import { artificeType } from '../../types/artifice';
 import { CiLock } from "react-icons/ci";
 import { GrCloudComputer } from "react-icons/gr";
 import { GrHostMaintenance } from "react-icons/gr";

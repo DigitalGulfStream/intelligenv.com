@@ -2,7 +2,7 @@
 import React from "react";
 import Image from 'next/image'
 import Link from 'next/link'
-import { slideType } from "@/types/slide";
+import { slideType } from "../../types/slide";
 import { FaPlus } from "react-icons/fa";
 import { FaPlay } from "react-icons/fa";
 
@@ -20,11 +20,11 @@ const ItemSlideshow = ({
           <br className="hidden lg:block" />
           The Future With <br className="hidden lg:block" /> AI & Robotics
         </div>
-        <div className="w-full flex justify-center  items-center lg:justify-start  flex-col lg:flex-row  items-center lg:items-start">
+        <div className="w-full flex justify-center lg:justify-start  flex-col lg:flex-row  items-center lg:items-start">
           <div className="lg:w-8/1	my-10">
-            <span className=" px-10 me-4  py-4 buttonCustomize hover:text-black transition duration-300 hover:-translate-y-4 text-white hover:text-black font-medium text-l border border-cyan-400 rounded-full hover:bg-cyan-400 ">Explore Now</span>
+            <span className=" px-10 me-4  py-4 buttonCustomize transition duration-300 hover:-translate-y-4 text-white hover:text-black font-medium text-l border border-cyan-400 rounded-full hover:bg-cyan-400 ">Explore Now</span>
           </div>
-          <div className='flex flex-col ms-5 lg:mt-10 lg:mt-0'>
+          <div className='flex flex-col ms-5 lg:mt-0'>
             <div className='flex items-center'>
               <span className='text-4xl text-white'>200</span>
               <span className='text-cyan-400 text-xl ms-3'><FaPlus /></span>
@@ -39,9 +39,9 @@ const ItemSlideshow = ({
         </div>
 
       </div>
-      <div className=":w-full flex flex-col lg:w-3/12 lg:block hidden">
-        <div className="flex mb-7 flex items-center">
-          <div className="p-5  buttonPlay hover:text-black transition duration-300 text-white hover:text-black font-medium text-l border border-cyan-400 rounded-full hover:bg-cyan-400 "><FaPlay /></div>
+      <div className=":w-full flex-col lg:w-3/12 lg:block hidden">
+        <div className=" mb-7 flex items-center">
+          <div className="p-5  buttonPlay transition duration-300 text-white hover:text-black font-medium text-l border border-cyan-400 rounded-full hover:bg-cyan-400 "><FaPlay /></div>
           <div className="text-white text-l ms-5">Watch Intro</div>
 
         </div>

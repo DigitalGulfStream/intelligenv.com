@@ -2,7 +2,7 @@
 import React from "react";
 import Image from 'next/image'
 import Link from 'next/link'
-import { peopleType } from "@/types/people";
+import { peopleType } from "../../types/people";
 import { FaQuoteLeft } from "react-icons/fa6";
 
 

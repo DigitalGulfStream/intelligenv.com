@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useRef, useState } from 'react'
 import ItemProjects from './ItemProjects'
-import { projectType } from '@/types/project';
+import { projectType } from '../../types/project';
 
 
 const Projects = () => {
@@ -46,7 +46,7 @@ const Projects = () => {
 
                 </div>
                 <div className='w-full items-center	flex justify-center mt-10'>
-                    <span className='block py-4 buttonCustomize hover:text-white transition duration-300 hover:-translate-y-4 text-white hover:text-black font-medium text-l border border-cyan-400 block float-start mt-10 rounded-full hover:bg-cyan-400'>View All Project</span>
+                    <span className=' py-4 buttonCustomize transition duration-300 hover:-translate-y-4 text-white hover:text-black font-medium text-l border border-cyan-400 block float-start mt-10 rounded-full hover:bg-cyan-400'>View All Project</span>
                 </div>
             </div>
         </section>

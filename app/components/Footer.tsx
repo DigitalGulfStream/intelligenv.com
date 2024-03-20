@@ -31,16 +31,16 @@ const Footer = () => {
                     <p>Copyright Artifice © 2023. All rights reserved</p>
                 </div>
                 <div className='w-full md:w-1/2 flex justify-center md:justify-end'>
-                    <a href='#' className='w-9 h-9 block text-white rounded-full hover:bg-cyan-400 hover:text-black socialMedia border border-cyan-400 block me-3 float-left text-l p-2'>
+                    <a href='#' className='w-9 h-9 text-white rounded-full hover:bg-cyan-400 hover:text-black socialMedia border border-cyan-400 block me-3 float-left text-l p-2'>
                     <FaFacebookF />
                     </a>
-                    <a href='#' className='w-9 h-9 block text-white rounded-full hover:bg-cyan-400 hover:text-black socialMedia border border-cyan-400 block me-3 float-left text-l p-2'>
+                    <a href='#' className='w-9 h-9 text-white rounded-full hover:bg-cyan-400 hover:text-black socialMedia border border-cyan-400 block me-3 float-left text-l p-2'>
                     <FaTwitter />
                     </a>
-                    <a href='#' className='w-9 h-9 block text-white rounded-full hover:bg-cyan-400 hover:text-black socialMedia border border-cyan-400 block me-3 float-left text-l p-2'>
+                    <a href='#' className='w-9 h-9 text-white rounded-full hover:bg-cyan-400 hover:text-black socialMedia border border-cyan-400 block me-3 float-left text-l p-2'>
                     <FaInstagram />
                     </a>
-                    <a href='#' className='w-9 h-9 block text-white rounded-full hover:bg-cyan-400 hover:text-black socialMedia border border-cyan-400 block me-3 float-left text-l p-2'>
+                    <a href='#' className='w-9 h-9 text-white rounded-full hover:bg-cyan-400 hover:text-black socialMedia border border-cyan-400 block me-3 float-left text-l p-2'>
                     <FaYoutube />
                     </a>
                 </div>

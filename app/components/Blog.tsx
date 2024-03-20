@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useRef, useState } from 'react'
 import ItemBlog from './ItemBlog'
-import { blogType } from '@/types/blog';
+import { blogType } from '../../types/blog';
 
 
 const Blogs = () => {

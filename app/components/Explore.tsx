@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useRef, useState } from 'react'
 import ItemExplore from './ItemExplore'
-import { exploreType } from '@/types/explore';
+import { exploreType } from '../../types/explore';
 import { PiCubeThin } from "react-icons/pi";
 import { HiOutlineCubeTransparent } from "react-icons/hi2";
 import { PiCubeTransparentThin, PiCubeFocusThin } from "react-icons/pi";
@@ -45,7 +45,7 @@ const Explore = () => {
                     <div className='text-3xl md:text-5xl text-white  mb-5 text-center md:text-left'>Explore Best <span className='text-cyan-400'>AI Services</span></div>
                     <div className='text-base text-slate-500 font-sans  text-center md:text-left'>Lorem ipsum dolor sit amet, consectetur <br className='hidden md:block' /> adipiscing elit sed eiusmod tempor</div>
                     <div className='flex justify-center	 mb-5 mt-10 sm:mt-0'>
-                        <span className='px-10 py-3  buttonCustomize hover:text-white transition duration-300 hover:-translate-y-4 text-white hover:text-black font-medium text-l border border-cyan-400 block md:float-start mt-10 rounded-full hover:bg-cyan-400 '>All Services</span>
+                        <span className='px-10 py-3  buttonCustomize transition duration-300 hover:-translate-y-4 text-white hover:text-black font-medium text-l border border-cyan-400 block md:float-start mt-10 rounded-full hover:bg-cyan-400 '>All Services</span>
                     </div>
 
                 </div>

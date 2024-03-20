@@ -2,7 +2,7 @@
 import React from "react";
 import Image from 'next/image'
 import Link from 'next/link'
-import { artificeType } from "@/types/artifice";
+import { artificeType } from "../../types/artifice";
 import { FaBattleNet } from "react-icons/fa6";
 
 

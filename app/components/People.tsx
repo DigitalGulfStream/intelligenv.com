@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useRef, useState } from 'react'
 import ItemPeople from './ItemPeople'
-import { peopleType } from '@/types/people';
+import { peopleType } from '../../types/people';
 import Slider from "react-slick";
 import '../../node_modules/slick-carousel/slick/slick.css';
 import '../../node_modules/slick-carousel/slick/slick-theme.css';
@@ -68,7 +68,7 @@ const Artifice = () => {
                 <div className='text-4xl leading-normal font-bold text-start text-white'>
                     What <span className='text-cyan-400'>People Say</span> About Our <br/> AI Service & Technology
                 </div>
-                <div className='font-sans text-slate-500 font-sans text-l '>
+                <div className=' text-slate-500 font-sans text-l '>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 </div>
             </div>

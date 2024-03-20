@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 'use client'
 import { PiCubeThin } from "react-icons/pi";
-import { exploreType } from "@/types/explore";
+import { exploreType } from "../../types/explore";
 
 // className="h-screen flex items-center justify-center bg-cover"
 // style={{ backgroundImage: 'url("/path/to/your/image.jpg")' }}
